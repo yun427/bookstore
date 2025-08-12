@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: productpage
+  name: ratings
   labels:
-    app: productpage
-    service: productpage
+    app: ratings
+    service: ratings
 spec:
   ports:
   - port: 9080
     name: http
   selector:
-    app: productpage
+    app: ratings
