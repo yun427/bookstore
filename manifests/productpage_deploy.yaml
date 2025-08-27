@@ -20,7 +20,7 @@ spec:
       serviceAccountName: bookinfo-productpage
       containers:
       - name: productpage
-        image: swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/istio/examples-bookinfo-productpage-v1:1.17.0
+        image: swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/istio/examples-bookinfo-productpage-v1:1.18.0
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 9080
